@@ -1,0 +1,92 @@
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #ffcccb;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  padding: 200px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff1493;
+}
+
+label {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #282c34;
+}
+
+select {
+  padding: 5px;
+  font-size: 1em;
+  margin-right: 10px;
+  border: 2px solid #ff1493;
+  border-radius: 5px;
+  background-color: #fff0f5;
+  color: #282c34;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #ff69b4;
+  color: white;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #282c34;
+}
+
+p strong {
+  font-weight: bold;
+  color: #ff1493;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+  background: #fff0f5;
+  color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.results h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ff1493;
+}
+
+.results p {
+  margin: 5px 0;
+  color: #282c34;
+}
